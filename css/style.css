@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgba(128, 128, 128, 0.306);
+    font-family: sans-serif;
 }
  /* INIZIO HEADER */
  .background{
@@ -19,7 +20,6 @@ body{
  }
  h1{
     display: inline-block;
-    font-family: sans-serif;
     font-weight: bold;
     font-size: 50px;
     vertical-align: middle;
@@ -34,10 +34,9 @@ body{
     margin: auto;
     width: 70%;
     margin-top: 50px;
-    height: 70px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
  #botton-task{
@@ -62,5 +61,101 @@ body{
     font-size: 12px;
  }
  /* FINE BUTTON */
- 
+
+ /* INIZIO UL */
+ .ul-background{
+    width: 70%;
+    background-color: white;
+    margin: 2px auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 40px 100px;
+    margin-bottom: 20px;
+ }
+
+ .style-ul{
+    list-style-type: none;
+ }
+
+ .text-bold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+ }
+
+ .text-small{
+    font-size: 20px;
+    font-weight: lighter;
+    list-style-type: none;
+ }
+
+ .check{
+    color: rgba(0, 128, 0, 0.752);
+    border: 2px solid rgba(0, 128, 0, 0.752);
+    border-radius: 50%;
+    padding: 0 2px;
+    margin: 5px;
+    
+ }
+
+ .cross{
+    color: rgba(128, 32, 0, 0.752);
+    border: 2px solid rgba(128, 32, 0, 0.752);
+    border-radius: 50%;
+    padding: 0 2px;
+    margin: 5px;
+ }
+
+ /* FINE UL */
+
+ /* INIZIO BOTTON */
+ .button-blu{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+
+ .button-viola{
+    background-color: rgba(119, 0, 255, 0.82);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+
+ .button-verde{
+    background-color: rgba(8, 168, 67, 0.827);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+
+ .button-arancione{
+    background-color: rgba(255, 128, 0, 0.881);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+
+ .button-rosa{
+    background-color: rgba(242, 0, 255, 0.851);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+
+ .button-giallo{
+    background-color: rgba(187, 255, 0, 0.827);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+ }
+ /* FINE BUTTON */
+
  /* FINE MAIN */
