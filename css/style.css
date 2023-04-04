@@ -9,6 +9,7 @@ body{
  /* INIZIO HEADER */
  .background{
     background-color: white;
+    padding-left: 30px;
  }
 
  #logo{
@@ -24,3 +25,42 @@ body{
     vertical-align: middle;
  }
  /* FINE HEADER */
+
+ /* INIZIO MAIN */
+
+ /* INIZIO BUTTON */
+ .button-background{
+    background-color:white;
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    height: 70px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 20px 40px;
+}
+
+ #botton-task{
+    width: 70px;
+    height: 35px;
+    color: white;
+    border-color: #197cfe80;
+    background-color: #197cfec4;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+ }
+
+ #botton-section{
+    width: 90px;
+    height: 35px;
+    color: rgba(128, 128, 128, 0.732);
+    border-color: rgba(128, 128, 128, 0.297);
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+ }
+ /* FINE BUTTON */
+ 
+ /* FINE MAIN */
